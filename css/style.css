@@ -4,14 +4,22 @@ body {
 }
 
 header, footer {
-  padding: 10px;
+  
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   color: white;
   background-color: black;
 }
 
+
 section {
   margin: 5px;
-  padding: 10px;
+  padding-right: 10%;
+  padding-left: 10%;
+  padding-top: 10px;
+  padding-bottom: 10px;
   background-color: lightgrey;
 }
 
