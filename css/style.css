@@ -3,19 +3,19 @@ body {
     font-size: 0.9em;
   }
   
-  div#header, div#footer {
+  header, footer {
     padding: 10px;
     color: white;
     background-color: black;
   }
   
-  div#content {
+ section {
     margin: 5px;
     padding: 10px;
     background-color: lightgrey;
   }
   
-  div.article {
+  article {
     margin: 5px;
     padding: 10px;
     background-color: white;
@@ -29,3 +29,7 @@ body {
     display: inline;
     margin: 5px;
   }
+   footer {
+    padding: 10px;
+    color: white;
+    background-color: black
