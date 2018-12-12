@@ -4,7 +4,6 @@ body {
 }
 
 header, footer {
-  
   padding-right: 10%;
   padding-left: 10%;
   padding-top: 10px;
@@ -36,4 +35,16 @@ nav ul {
 nav ul li {
   display: inline;
   margin: 5px;
+}
+header{
+  display: flex;
+  flex-direction: row;
+
+}
+header h1{
+  flex:5;
+}
+
+header nav{
+  flex: 1;
 }
